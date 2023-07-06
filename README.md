@@ -1,11 +1,11 @@
-About triangle
-==============
+About triangle-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/triangle-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.cs.cmu.edu/~quake/triangle.html
 
 Package license: MIT-like
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/triangle-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.
 
@@ -37,6 +37,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5427&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/triangle-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5427&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/triangle-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5427&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/triangle-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
