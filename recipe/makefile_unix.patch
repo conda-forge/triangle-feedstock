@@ -1,5 +1,5 @@
 --- ../triangle-source-original/makefile	2005-07-27 19:22:01.000000000 -0500
-+++ makefile	2024-09-18 14:01:41.631057575 -0500
++++ makefile	2024-09-18 14:57:15.111083272 -0500
 @@ -18,7 +18,6 @@
  
  # CC should be set to the name of your favorite C compiler.
@@ -17,3 +17,12 @@
  
  # TRILIBDEFS is a list of definitions used to compile an object code version
  #   of Triangle (triangle.o) to be called by another program.  The file
+@@ -97,6 +96,8 @@
+ all: $(BIN)triangle $(BIN)showme
+ 
+ trilibrary: $(BIN)triangle.o $(BIN)tricall
++	$(AR) r $(LIB)libtri.a $(BIN)triangle.o
++	$(RANLIB) $(LIB)libtri.a
+ 
+ $(BIN)triangle: $(SRC)triangle.c
+ 	$(CC) $(CSWITCHES) -o $(BIN)triangle $(SRC)triangle.c -lm
