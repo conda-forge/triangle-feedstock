@@ -11,13 +11,12 @@ source:
   url: http://www.netlib.org/voronoi/triangle.zip
   sha256: {{ sha256 }}
   patches:
-    # Obtained from https://github.com/erdc-cm/triangle
     - makefile_unix.patch  # [unix]
     - makefile_win.patch  # [win]
     - triangle.h.patch
 
 build:
-  number: 4
+  number: 5
 
 requirements:
   build:
