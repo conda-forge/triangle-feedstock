@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-make
+make triangle
 make trilibrary
 mkdir -p "${PREFIX}/bin"
 cp triangle "${PREFIX}/bin"

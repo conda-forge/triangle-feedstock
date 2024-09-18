@@ -1,4 +1,4 @@
-nmake
+nmake triangle
 nmake trilibrary
 mkdir %LIBRARY_BIN%
 copy triangle.exe %LIBRARY_BIN%
