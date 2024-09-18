@@ -22,13 +22,8 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
     - make
-  host:
-    - mpich  # [unix]
-    - xorg-libx11  # [unix]
-  run:
-    - mpich  # [unix]
-
 test:
   commands:
     - test -f ${PREFIX}/bin/triangle  # [unix]
